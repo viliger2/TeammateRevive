@@ -69,6 +69,6 @@ public static class ReviveHelper
     private static void FallbackRespawnFunction(CharacterMaster master)
     {
         master.RespawnExtraLife();
-        master.inventory.RemoveItem(RoR2Content.Items.ExtraLifeConsumed);
+        master.inventory.RemoveItem(RoR2Content.Items.ExtraLifeConsumed.itemIndex);
     }
 }
