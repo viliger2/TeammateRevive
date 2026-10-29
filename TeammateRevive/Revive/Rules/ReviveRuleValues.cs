@@ -37,6 +37,8 @@
 
         public bool RequireHitboxesActive { get; set; } = false;
 
+        public bool EnableDeamMansHandAlways { get; set; } = false;
+
         public ReviveRuleValues Clone()
         {
             return (ReviveRuleValues)MemberwiseClone();

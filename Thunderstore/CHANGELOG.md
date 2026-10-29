@@ -1,3 +1,7 @@
+### 4.2.3
+
+* Added config option to enable Dead Man's Hand without enabling Artifact of Death Curse or Force Death Curse rule.
+
 ### 4.2.2
 
 * Recompiled for HC.

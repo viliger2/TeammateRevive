@@ -241,6 +241,11 @@ namespace TeammateRevive.Configuration
                     key: "Require hitboxes active",
                     description: "Prevent players from reviving if their hitboxes are disabled via Strides of Heresy or other similar skills.",
                     set: v => values.RequireHitboxesActive = v,
+                    defaultValue: false)
+                .Bind(
+                    key: "Dead Mans Hand Always Active",
+                    description: "Dead Mans Hand is always added to drop pools, independent of the artifact or Force Death Curse rule.",
+                    set: v=> values.EnableDeamMansHandAlways = v,
                     defaultValue: false);
         }
 
